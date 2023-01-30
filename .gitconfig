@@ -1,0 +1,9 @@
+[user]
+	email = test1@domain.com
+	name = test1
+[core]
+	longpaths = true
+[tag]
+	forceSignAnnotated = true
+[includeIf "gitdir:~/Desktop/SUB/"]
+	path = ~/sub.gitconfig
